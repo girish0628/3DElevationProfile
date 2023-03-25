@@ -1,0 +1,93 @@
+.jimu-widget-elevation3d div:first-child {
+  color: red;
+}
+
+.jimu-widget-3delevationprofile {
+  position: relative;
+  height: 100%;
+}
+
+.jimu-widget-3delevationprofile .draw-container {
+  border-right: 1px solid grey;
+  height: 100%;
+  width: 28%;
+  display: inline-block;
+  text-align: center;
+}
+
+.jimu-widget-3delevationprofile .chart-node {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+}
+
+.jimu-widget-3delevationprofile .chart-container {
+  width: 100%;
+  height: 100%;
+}
+
+.jimu-widget-3delevationprofile .draw-btn {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  display: inline-block;
+  background: url(images/draw.png) center no-repeat;
+  border: 1px solid black;
+}
+
+.jimu-widget-3delevationprofile .clear-btn {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  display: inline-block;
+  background: url(images/clear.png) center no-repeat;
+  border: 1px solid black;
+}
+
+.jimu-widget-3delevationprofile .draw-btn:hover {
+  background-color: blue;
+  background: url(images/draw-hover.png) center no-repeat !important;
+  cursor: pointer;
+}
+
+.jimu-widget-3delevationprofile .clear-btn:hover {
+  background-color: blue;
+  background: url(images/clear-hover.png) center no-repeat !important;
+  cursor: pointer;
+}
+
+.jimu-widget-3delevationprofile .draw-btn-active {
+  background-color: blue;
+  background: url(images/draw-active.png) center no-repeat !important;
+  cursor: pointer;
+}
+
+.jimu-widget-3delevationprofile .chart-container .hide {
+  display: none !important;
+}
+
+.jimu-widget-3delevationprofile .chart-container .hide {
+  display: block !important;
+}
+
+.jimu-widget-3delevationprofile .action-button {
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid #d3d3d3;
+  color: #6e6e6e;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.jimu-widget-3delevationprofile .action-button:hover,
+.jimu-widget-3delevationprofile .action-button:focus {
+  background: #0079c1;
+  color: #e4e4e4;
+}
+
+.jimu-widget-3delevationprofile .action {
+  background: #0079c1;
+  color: #e4e4e4;
+}

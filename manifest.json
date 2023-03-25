@@ -1,0 +1,12 @@
+{
+  "name": "3DElevationProfile",
+  "platform": "HTML3D",
+  "2D": false,
+  "3D": true,
+  "version": "2.25",
+  "wabVersion": "2.25",
+  "author": "Girish Pathak",
+  "description": "Elevation Profile",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}
